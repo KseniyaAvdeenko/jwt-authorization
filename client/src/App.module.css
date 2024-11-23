@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #0900ff 0%, #743bc8 45%, #0b0009 100%);
+}
+
+.App__user{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    font-size: 1.6rem;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #0900ff 0%, #743bc8 45%, #0b0009 100%);
+}
